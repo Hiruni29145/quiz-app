@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Page</title>
+  <link rel="stylesheet" href="./style.css" />
+  
+</head>
+<body>
+ <div id="bodyImg">
+  <header class="navbar">
+    <div class="nav-content">
+      <div class="logo">
+        <img src="./assets/FAQ.png" alt="Logo" />
+      </div>
+      <div class="user-name" id="username-display">User</div>
+    </div>
+  </header>
+  
+  <div class="quiz1-header">
+    <div class="timer" id="timer">00:57</div>
+  </div>
+
+  <div class="quiz-header">
+    <p class="question-count" >Questions 1/5</p>
+    <!-- <div class="timer" id="timer">00:50</div> -->
+  </div>
+  
+
+  <main class="quiz-container">
+    <div class="quiz-box">
+  <div class="question-header" id="question-count"></div>
+  <div class="question" id="question-text"></div>
+  <ul id="options-list" class="options-list"></ul>
+  <button id="nextBtn" onclick="goToNextQuestion()">Next</button>
+</div>
+  </main>
+ </div>
+  <!-- JavaScript to Load Username -->
+  <script src="./js/quiz.js"></script>
+</body>
+</html>
