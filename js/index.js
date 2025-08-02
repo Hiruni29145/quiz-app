@@ -5,7 +5,7 @@ function startQuiz() {
     return;
   }
 
-  localStorage.setItem("username", username); // Save name
+  localStorage.setItem("username", username); 
   window.location.href = "quiz.html"; // Redirect to quiz page
 }
 const username = localStorage.getItem("username") || "Guest";

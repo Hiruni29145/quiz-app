@@ -6,7 +6,7 @@ const username = localStorage.getItem("username") || "Guest";
   const username = localStorage.getItem("username") || "Guest";
   document.getElementById("username-display").textContent = username;
 
-  // Start the timer
+  
   const startTime = parseInt(localStorage.getItem("quizStartTime")) || Date.now();
   const totalSeconds = 50;
   const timerElement = document.getElementById("timer");
