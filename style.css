@@ -8,12 +8,12 @@
 body {
   background-color: #ffffff;
   height: 100%;
-  /* overflow-y: hidden; */
+ 
 
 }
 
 
-/* Navbar Styles */
+
 .navbar {
   background-color: #4CAF50;
  height: 100px;
